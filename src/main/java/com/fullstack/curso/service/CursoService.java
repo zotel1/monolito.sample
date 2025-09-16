@@ -35,7 +35,7 @@ public class CursoService {
         cursos.add(curso);
     }
 
-    public void actualir(Curso cursoEditado){
+    public void actualizar(Curso cursoEditado){
         int index = 0;
         for (Curso curso : cursos) {
             if (curso.getId().equals(cursoEditado.getId())) {
